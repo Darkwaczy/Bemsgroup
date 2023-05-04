@@ -419,6 +419,7 @@
         height: 30px;
         line-height: 30px;
         font-size: 15px;
+
     }
     .btn-filter {
         margin-right: 25px;
@@ -437,6 +438,7 @@
 /* Small Devices, Mid Size Mobiles */
 
 @media only screen and (max-width: 575px) {
+    
     .slide-div {
         padding-top: 195px;
     }
@@ -463,7 +465,7 @@
         height: auto;
     }
     .logo img {
-        max-width: 141px;
+        max-width: 100px;
         margin: 20px 0px;
     }
     .mean-container a.meanmenu-reveal {
@@ -705,6 +707,8 @@
         font-size: 40px;
     }
 }
+
+
 
 
 /*end*/

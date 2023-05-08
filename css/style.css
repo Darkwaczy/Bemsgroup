@@ -1082,6 +1082,10 @@ section.top-header {
 5. Client logos slide
 .......................................*/
 
+.Subsidiaries{
+    text-align: center;
+}
+
 .top-clients {
     border-bottom: 2px solid;
 }

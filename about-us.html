@@ -189,45 +189,58 @@
         </div>
     </section>
     <!-- Mission and vision area end -->
-<!-- Request callback start -->
-<section class="callback-area pt-95 pb-85" style="background-image: url('img/banner/banner_1.jpg');" data-overlay="9">
+ <!-- Request callback start -->
+ <section class="callback-area pt-95 pb-85" style="background-image: url('img/banner/banner_1.jpg');" data-overlay="9">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="fancy-head text-center relative z-5 mb-40 wow fadeInDown">
                     <h5 class="line-head mb-15 white">
-                        <span class="line before bg-white"></span>
-                        Contact Us
-                        <span class="line after bg-white"></span>
-                    </h5>
+              <span class="line before bg-white"></span>
+                Contact Us
+              <span class="line after bg-white"></span>
+            </h5>
                     <h1 class="white">Request a Call Back</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <form action="#" class="relative z-5  wow fadeInUp">
+                <form action="https://formsubmit.co/293ba0fc5cd993c902c61fd68df08169" method="POST" class="relative z-5 mt-10">
+
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+            
+                    <!-- Disable Capture -->
+                 <input type="hidden" name="_captcha" value="false">
+            
+                 <!-- Template type -->
+                 <input type="hidden" name="_template" value="table">
+            
+                <input type="hidden" name="_next" value="https://darkwaczy.github.io/Bemsgroup/success.html">
+            
+                <input type="hidden" name="_autoresponse" value="your custom message">
+
+
+
                     <div class="row">
                         <div class="col-xl-10 col-lg-12">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group relative">
-                                        <input type="text" class="form-control input-white shadow-2" id="name"
-                                            placeholder="Name">
+                                        <input type="text" class="form-control input-white shadow-2" name="name" placeholder="Name" required>
                                         <i class="far fa-user transform-v-center"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group relative">
-                                        <input type="email" class="form-control input-white shadow-2" id="email"
-                                            placeholder="Email">
+                                        <input type="email" class="form-control input-white shadow-2" name="email" placeholder="Email">
                                         <i class="far fa-envelope transform-v-center"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group relative">
-                                        <input type="text" class="form-control input-white shadow-2" id="phone"
-                                            placeholder="Phone number">
+                                        <input type="text" class="form-control input-white shadow-2" name="phone" placeholder="Phone number" required>
                                         <i class="fas fa-mobile-alt transform-v-center"></i>
                                     </div>
                                 </div>
@@ -243,6 +256,7 @@
     </div>
 </section>
 <!-- Request callback end -->
+
 <!-- Faq area start -->
 <section class="faq-area relative">
     <div class="bg-faq-img h-100 bg-cover d-none d-lg-block col-lg-5"
